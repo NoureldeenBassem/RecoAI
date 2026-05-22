@@ -291,6 +291,16 @@ with st.sidebar:
 
     st.markdown("")
     run_btn = st.button("🚀  Get Recommendations", use_container_width=True, type="primary")
+    st.markdown("---")
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <p>Built by <strong>Noureldin Bassem</strong></p>
+            <p style="font-size: 0.8em; color: #888;">AI Intern | DecodeLabs</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     if run_btn:
         prefs = {
