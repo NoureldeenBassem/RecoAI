@@ -1,0 +1,16 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Output files
+output/
+!output/.keep
+
+# System files
+.DS_Store
+Thumbs.db
